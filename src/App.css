@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700&display=swap");
+
+* {
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
+  background-color: #4158d0;
+  background-image: linear-gradient(
+    43deg,
+    #4158d0 0%,
+    #c850c0 46%,
+    #ffcc70 100%
+  );
+  height: 100vh;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sub {
+  opacity: 0.5;
+  color: white;
+}
+
+.sub a {
+  color: white;
+}
+
+h1 {
+  letter-spacing: 0.5rem;
+  text-transform: uppercase;
+}
+
+.suggestion-text {
+  opacity: 0.8;
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+.section {
+  background-color: #202126;
+  color: white;
+  padding: 1rem;
+  margin-top: 1rem;
+  border-radius: 6px;
+  width: 300px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.options {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 1rem;
+}
+
+.section button {
+  width: 100%;
+  padding: 0.5rem;
+  border-radius: 6px;
+  border: none;
+  background-color: #4158d0;
+  color: white;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.section button:hover {
+  background-color: #3b4db8;
+}
+
+.bottom {
+  background-color: #202126;
+  width: 300px;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 2rem;
+  border-radius: 10px;
+}
+
+.bottom button {
+  padding: 0.5rem;
+  border-radius: 6px;
+  border: none;
+  background-color: #131416;
+  border: 1px solid #4158d0;
+  color: white;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
